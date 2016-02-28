@@ -36,7 +36,7 @@ function main() {
 
 	    $temp = getHand($deck, $scores);
 	    echo "<td>";
-		echo "<img/faces/ricardo.png' width='20%' alt='Ricky'/>";
+		echo "<img src = 'img/faces/ricardo.png' width='20%' alt='Ricky'/>";
 		displayHand($temp);
 	    echo "</td>";
 	    echo "<td>";
