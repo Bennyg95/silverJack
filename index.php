@@ -18,7 +18,10 @@
         
         <!-- footer is for our csumb logo -->
         <footer>
-            
+            &copy; Bejar, Negron, Sanchez, and Vazquez, 2016. <br />
+        Disclaimer: The content of this web page might not be accurate.
+        <br />
+        	<img src="img/csumb-logo.png" alt="CSUMB Logo" />
         </footer>
     </body>
 </html>
