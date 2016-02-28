@@ -137,6 +137,10 @@ function getHand(&$deck, &$scores) {
     return($hand);
 }
 
+function playersPoints(&$scores, $indexPlayer) {
+    echo "<strong> $scores[$indexPlayer] </strong>";
+}
+
 function displayHand($hand)
 {
     $size = sizeof($hand);
