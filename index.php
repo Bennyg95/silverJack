@@ -113,6 +113,23 @@ function getHand(&$deck, &$scores) {
     return($hand);
 }
 
+function displayHand($hand)
+{
+    $size = sizeof($hand);
+    for($i = 0; $i < $size; $i++) {
+        $suit = array("clubs", "diamonds", "hearts", "spades");
+        $card = array_pop($hand);
+        if($card == 52)
+            $card--;
+        $cardSuit = $suit[floor($card / 13)];
+        $cardValue = $card % 13;
+        if($cardValue == 0)
+            $cardValue = 13;
+            
+        echo "<img src=cards/$cardSuit/$cardValue.png>  ";
+    }
+}
+
 function displayWinners(&$scores) {
     $winners = array();
 
