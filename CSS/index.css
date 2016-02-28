@@ -1,0 +1,33 @@
+header{
+            background-color:gray;
+            text-align:center;
+            color:black !important;
+            font-size: 150%;
+        }
+body{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#002400+0,005700+17,008a00+33,52b152+67,83c783+83,b4ddb4+100 */
+    background: #002400; /* Old browsers */
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#002400), color-stop(0.17, #005700), color-stop(0.33, #008a00), color-stop(0.67, #52b152), color-stop(0.83, #83c783), to(#b4ddb4));
+    background: -webkit-linear-gradient(#002400 0%, #005700 17%, #008a00 33%, #52b152 67%, #83c783 83%, #b4ddb4 100%);
+    background: -moz-linear-gradient(#002400 0%, #005700 17%, #008a00 33%, #52b152 67%, #83c783 83%, #b4ddb4 100%);
+    background: -o-linear-gradient(#002400 0%, #005700 17%, #008a00 33%, #52b152 67%, #83c783 83%, #b4ddb4 100%);
+    background: linear-gradient(#002400 0%, #005700 17%, #008a00 33%, #52b152 67%, #83c783 83%, #b4ddb4 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002400', endColorstr='#b4ddb4',GradientType=0 ); /* IE6-9 */
+}
+
+table tr td{
+   
+    font-size: 150%;
+}
+#button{
+    height:50px;
+    width:100px;
+    background:#668cff;
+    margin:0 auto;
+    text-align:center;
+}
+
+#winners {
+    text-align:center;
+    font-size:30px;
+}
