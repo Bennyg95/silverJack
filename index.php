@@ -3,7 +3,7 @@
     <head>
         <title> Silverjack </title>
         <meta charset="utf-8"/>
-        <link href="https://preview.c9users.io/clarissa_vazquez/cst336/Labs/Lab 3/CSS/index.css" rel="stylesheet"/>
+        <link href="https://preview.c9users.io/clarissa_vazquez/cst336/Labs/Lab 3/silverJack/CSS/index.css" rel="stylesheet"/>
     </head>
     <body>
         <header>
@@ -36,7 +36,7 @@ function main() {
 
 	    $temp = getHand($deck, $scores);
 	    echo "<td>";
-		echo "<img src='silverJack/img/faces/ricardo.png' width='20%' alt='Ricky'/>";
+		echo "<img src='cst336/Labs/Lab\ 3/silverJack/img/faces/ricardo.png' width='20%' alt='Ricky'/>";
 		displayHand($temp);
 	    echo "</td>";
 	    echo "<td>";
@@ -154,7 +154,7 @@ function displayHand($hand)
         if($cardValue == 0)
             $cardValue = 13;
             
-        echo "<img src=cards/$cardSuit/$cardValue.png>  ";
+        echo "<img src=img/cards/$cardSuit/$cardValue.png>  ";
     }
 }
 
