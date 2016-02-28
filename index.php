@@ -1,3 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Silverjack </title>
+        <meta charset="utf-8"/>
+        <link href="https://preview.c9users.io/clarissa_vazquez/cst336/Labs/Lab 3/CSS/index.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <header>
+            <h1>Silverjack</h1>
+        </header>   
+           
+           
+        <?=main()?>
+        <div>
+            <input id="button" type="button" value="Play Again!" onClick="window.location.reload()" class="button">
+        </div>
+        
+        <!-- footer is for our csumb logo -->
+        <footer>
+            
+        </footer>
+    </body>
+</html>
 <?php
 
 function main() {
