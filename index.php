@@ -36,7 +36,7 @@ function main() {
 
 	    $temp = getHand($deck, $scores);
 	    echo "<td>";
-		echo "<img src='cst336/Labs/Lab\ 3/silverJack/img/faces/ricardo.png' width='20%' alt='Ricky'/>";
+		echo "<img/faces/ricardo.png' width='20%' alt='Ricky'/>";
 		displayHand($temp);
 	    echo "</td>";
 	    echo "<td>";
@@ -49,7 +49,7 @@ function main() {
 
 	    $fallas = getHand($deck, $scores);
 	    echo "<td>";
-		echo "<img src='silverJack/img/faces/benito.jpg' width='20%' alt='Benito'/>";
+		echo "<img src='img/faces/benito.jpg' width='20%' alt='Benito'/>";
 		displayHand($fallas);
 	    echo "</td>";
 	    echo "<td>";
@@ -62,7 +62,7 @@ function main() {
 
 	    $temp = getHand($deck, $scores);
 	    echo"<td>";
-		echo "<img src='silverJack/img/faces/stephen.jpg' width='20%' alt='Stephen' />";
+		echo "<img src='img/faces/stephen.jpg' width='20%' alt='Stephen' />";
 		displayHand($temp);
 	    echo "</td>";
 	    echo "<td>";
@@ -77,7 +77,7 @@ function main() {
 
 	    $temp = getHand($deck, $scores);
 	    echo "<td>";
-		echo "<img src='silverJack/img/faces/clarissa.jpg' width='20%' alt='Clarissa'/>";
+		echo "<img src='img/faces/clarissa.jpg' width='20%' alt='Clarissa'/>";
 		displayHand($temp);
 	    echo "</td>";
 	    echo "<td>";
